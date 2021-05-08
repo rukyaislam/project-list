@@ -1,0 +1,30 @@
+body{
+     background-color:  #2F5878;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    font-family: poppins;
+     
+}
+ 
+.bg-custom
+{
+    
+    border: 1px solid #ffffff23;
+    color: #fff;
+    background-image: url("https://images.unsplash.com/photo-1613114016545-8352ff5b8d9c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80");
+background-position:bottom;
+
+}
+.mb-02
+{
+    margin-bottom: 4px;
+}
+.container::after
+{
+content: "Weather application by rukya@2021";
+text-align: center;
+color: #fff;
+display: block;
+font-size: small;
+}
